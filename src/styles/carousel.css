@@ -1,0 +1,58 @@
+/* Carousel specific styles */
+.achievements-carousel {
+  padding: 60px 0;
+  background: transparent;
+}
+
+.achievements-carousel .slick-track {
+  display: flex !important;
+  gap: 1rem;
+  padding: 20px 0;
+  min-height: 300px; /* Minimum height for desktop */
+}
+
+.achievements-carousel .slick-slide {
+  height: inherit !important;
+  padding: 0 10px;
+}
+
+.achievements-carousel .slick-slide > div {
+  height: 100%;
+}
+
+.achievements-carousel .slick-dots {
+  bottom: -30px; /* Adjusted to accommodate increased padding */
+}
+
+.achievements-carousel .slick-dots li button:before {
+  color: var(--accent-blue);
+}
+
+.achievements-carousel .slick-dots li.slick-active button:before {
+  color: var(--accent-blue);
+}
+
+.achievements-carousel .slick-prev:before,
+.achievements-carousel .slick-next:before {
+  color: var(--accent-blue);
+  font-size: 24px;
+}
+
+.achievements-carousel .slick-prev {
+  left: -30px;
+}
+
+.achievements-carousel .slick-next {
+  right: -30px;
+}
+
+/* Responsive adjustments */
+@media (min-width: 1024px) {
+  .achievements-carousel {
+    padding: 80px 0;
+  }
+  
+  .achievements-carousel .slick-track {
+    min-height: 350px;
+  }
+}

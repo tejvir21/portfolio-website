@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './carousel.css';
+
+:root {
+  --primary-dark: #0a0a0a;
+  --accent-blue: #00f2fe;
+  --accent-purple: #4837ff;
+}
+
+@layer base {
+  body {
+    @apply bg-[var(--primary-dark)] text-white;
+  }
+}
+
+@layer components {
+  .neon-glow {
+    text-shadow: 0 0 10px var(--accent-blue),
+                 0 0 20px var(--accent-blue),
+                 0 0 30px var(--accent-blue);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105 hover:shadow-lg;
+    box-shadow: 0 0 20px rgba(0, 242, 254, 0.2);
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[var(--accent-blue)] to-[var(--accent-purple)];
+  }
+}

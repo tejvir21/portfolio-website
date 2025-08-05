@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { TbFileCv } from "react-icons/tb";
 import { SOCIAL_LINKS } from '../../utils/constants';
 import SocialLink from './SocialLink';
 
@@ -7,6 +8,7 @@ const socialIcons = {
   github: FaGithub,
   linkedin: FaLinkedin,
   twitter: FaTwitter,
+  cv: TbFileCv,
 };
 
 const SocialLinks = () => {

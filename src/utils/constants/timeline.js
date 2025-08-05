@@ -11,7 +11,7 @@ export const TIMELINE_DATA = [
   {
     title: "Full Stack Python Trainer",
     company: "MTA India",
-    date: "Sep 2024 - Present",
+    date: "Sep 2024 - Apr 2025",
     description: "Guides students through hands-on projects, helping them build and deploy full-stack applications, and provides mentorship and support.",
     icon: FaBriefcase,
   },

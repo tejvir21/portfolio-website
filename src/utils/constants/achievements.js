@@ -9,13 +9,13 @@ export const ACHIEVEMENTS_DATA = [
   },
   {
     icon: FaCode,
-    count: '15+',
+    count: '50+',
     title: 'Projects Completed',
     description: 'Completed diverse projects across multiple domains, delivering exceptional results.'
   },
   {
     icon: FaBug,
-    count: '50+',
+    count: '80+',
     title: 'Bugs Fixed',
     description: 'Resolved issues to ensure smooth user experiences'
   },

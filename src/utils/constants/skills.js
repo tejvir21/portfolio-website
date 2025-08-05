@@ -5,12 +5,14 @@ export const SKILLS_DATA = {
     // { name: 'Vue.js', level: 85, icon: 'FaVuejs' },
     // { name: 'TypeScript', level: 80, icon: 'TbBrandTypescript' },
     { name: 'JavaScript', level: 80, icon: 'TbBrandJavascript' },
+    { name: 'Bootstrap', level: 90, icon: 'FaBootstrap' },
     { name: 'React', level: 70, icon: 'FaReact' },
   ],
   backend: [
-    { name: 'Node.js', level: 70, icon: 'FaNodeJs' },
-    { name: 'Django', level: 70, icon: 'SiDjango' },
+    { name: 'Node.js', level: 80, icon: 'FaNodeJs' },
+    { name: 'Express.js', level: 80, icon: 'SiExpress' },
+    { name: 'Django', level: 80, icon: 'SiDjango' },
     { name: 'Python', level: 90, icon: 'FaPython' },
-    { name: 'MongoDB', level: 70, icon: 'SiMongodb' },
+    { name: 'MongoDB', level: 80, icon: 'SiMongodb' },
   ],
 };

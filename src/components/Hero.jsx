@@ -1,11 +1,14 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import SocialLinks from './common/SocialLinks';
-import profileImage from '../assets/profile.jpg'; // We'll import the local image
+import React from "react";
+import { motion } from "framer-motion";
+import SocialLinks from "./common/SocialLinks";
+import profileImage from "../assets/profile.jpg"; // We'll import the local image
 
 const Hero = () => {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center pt-16">
+    <section
+      id="about"
+      className="min-h-screen flex items-center justify-center pt-16"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <motion.div
@@ -16,11 +19,17 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
               Hi, I'm <span className="gradient-text">Tejvir Chauhan</span>
             </h1>
-            <p className="text-xl text-gray-400 mb-6">
-              Full Stack Developer & UI/UX Designer
-            </p>
-            <p className="text-gray-300 mb-8">
+            <p className="text-xl text-gray-400 mb-6">Full Stack Developer</p>
+            {/* <p className="text-gray-300 mb-8">
               I am a versatile Full Stack Developer with expertise in crafting seamless web applications, blending front-end creativity with back-end efficiency.
+            </p> */}
+            <p className="text-gray-300 mb-8">
+              I am a versatile Full Stack Developer with expertise in crafting
+              seamless web applications by blending front-end creativity (HTML,
+              CSS, JavaScript, React) with back-end efficiency (Node.js,
+              Express, MySQL, MongoDB). My passion lies in building
+              user-friendly interfaces and robust server-side solutions that
+              deliver exceptional user experiences.
             </p>
             <SocialLinks />
           </motion.div>

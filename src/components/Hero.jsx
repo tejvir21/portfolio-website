@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import SocialLinks from "./common/SocialLinks";
 import profileImage from "../assets/profile.jpg"; // We'll import the local image

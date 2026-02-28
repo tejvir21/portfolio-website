@@ -1,9 +1,7 @@
-import { FaTrophy, FaCode, FaUsers, FaStar, FaBug } from "react-icons/fa";
 import { TbCertificate } from "react-icons/tb";
 import { LiaCertificateSolid } from "react-icons/lia";
 import { PiCertificateBold } from "react-icons/pi";
 import { PiCertificateFill } from "react-icons/pi";
-import { AiFillSafetyCertificate } from "react-icons/ai";
 
 export const CERTIFICATES_DATA = [
   {
@@ -64,5 +62,33 @@ export const CERTIFICATES_DATA = [
       "Cleaned, modelled and analyzed 7 datasets to uncover insights into content trends to inform strategic decisions",
       " Prepared a PowerPoint deck and video presentation to communicate key insights for the client and internal stakeholders",
     ],
+  },
+  {
+    icon: PiCertificateFill,
+    image: "/Data_Visualization.png",
+    date: "Febrary 2026",
+    title: "Data Visualization",
+    description: ["I've completed the Data Visualization course on Kaggle!"],
+  },
+  {
+    icon: PiCertificateFill,
+    image: "/Pandas.png",
+    date: "February 2026",
+    title: "Pandas",
+    description: ["I've completed the Pandas course on Kaggle!"],
+  },
+  {
+    icon: PiCertificateFill,
+    image: "/Python.png",
+    date: "February 2026",
+    title: "Python",
+    description: ["I've completed the Python course on Kaggle!"],
+  },
+  {
+    icon: PiCertificateFill,
+    image: "/Intro_to_Programming.png",
+    date: "February 2026",
+    title: "Intro To Programming",
+    description: ["I've completed the Intro To Programming course on Kaggle!"],
   },
 ];

@@ -1,4 +1,4 @@
-import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
+import { FaBriefcase, FaGraduationCap } from "react-icons/fa";
 
 export const TIMELINE_DATA = [
   // {
@@ -9,10 +9,19 @@ export const TIMELINE_DATA = [
   //   icon: FaBriefcase,
   // },
   {
+    title: "Frontend Developer",
+    company: "Nixtour India Private Limited",
+    date: "Oct 2025 - Present",
+    description:
+      "Developed and maintained scalable web applications using React.js, TypeScript, Tailwind CSS, and JavaScript(ES6+), improving performance and maintainability.",
+    icon: FaBriefcase,
+  },
+  {
     title: "Full Stack Python Trainer",
     company: "MTA India",
     date: "Sep 2024 - Apr 2025",
-    description: "Guides students through hands-on projects, helping them build and deploy full-stack applications, and provides mentorship and support.",
+    description:
+      "Guides students through hands-on projects, helping them build and deploy full-stack applications, and provides mentorship and support.",
     icon: FaBriefcase,
   },
   {
@@ -26,7 +35,8 @@ export const TIMELINE_DATA = [
     title: "High School (12th)",
     company: "Jagran Public School",
     date: "2019 - 2020",
-    description: "Completed Higher Secondary Education with focus on Science and Mathematics",
+    description:
+      "Completed Higher Secondary Education with focus on Science and Mathematics",
     icon: FaGraduationCap,
   },
   {

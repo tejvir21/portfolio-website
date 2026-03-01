@@ -15,6 +15,6 @@ export const SEO_CONFIG = {
   ],
   author: "Tejvir Chauhan",
   image: "https://your-domain.com/og-image.jpg", // Add your Open Graph image URL
-  url: "https://your-domain.com", // Add your website URL
-  twitterHandle: "@yourusername" // Add your Twitter handle
+  url: "https://tejvir.netlify.app/", // Add your website URL
+  twitterHandle: "@C219Rajput" // Add your Twitter handle
 };

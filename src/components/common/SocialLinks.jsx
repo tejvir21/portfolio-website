@@ -1,12 +1,15 @@
-import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { SOCIAL_LINKS } from '../../utils/constants';
-import SocialLink from './SocialLink';
+import React from "react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { TbFileCv, TbBrandLeetcode } from "react-icons/tb";
+import { SOCIAL_LINKS } from "../../utils/constants";
+import SocialLink from "./SocialLink";
 
 const socialIcons = {
   github: FaGithub,
   linkedin: FaLinkedin,
   twitter: FaTwitter,
+  cv: TbFileCv,
+  leetcode: TbBrandLeetcode,
 };
 
 const SocialLinks = () => {

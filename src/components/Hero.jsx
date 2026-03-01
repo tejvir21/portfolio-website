@@ -24,11 +24,11 @@ const Hero = () => {
             </p> */}
             <p className="text-gray-300 mb-8">
               I am a versatile Full Stack Developer with expertise in crafting
-              seamless web applications by blending front-end creativity (HTML,
-              CSS, JavaScript, React) with back-end efficiency (Node.js,
-              Express, MySQL, MongoDB). My passion lies in building
-              user-friendly interfaces and robust server-side solutions that
-              deliver exceptional user experiences.
+              seamless web applications by blending front-end creativity (HTML5,
+              CSS3, JavaScript, TypeScript, React) with back-end efficiency
+              (Node.js, Express, MongoDB, MySQL, PostgreSQL). My passion lies in
+              building user-friendly interfaces and robust server-side solutions
+              that deliver exceptional user experiences.
             </p>
             <SocialLinks />
           </motion.div>

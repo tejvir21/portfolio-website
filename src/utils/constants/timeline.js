@@ -28,7 +28,8 @@ export const TIMELINE_DATA = [
     title: "Computer Science Degree",
     company: "Accurate Institute of Management & Technology",
     date: "2021 - 2025",
-    description: "Bachelor's degree in Computer Science",
+    description:
+      "Bachelor's degree in Computer Science Engineering with distinction (I-Division), demonstrating strong academic performance and a solid foundation in computer science principles.",
     icon: FaGraduationCap,
   },
   {

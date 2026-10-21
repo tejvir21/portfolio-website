@@ -6,6 +6,7 @@ import Timeline from './components/timeline/Timeline';
 import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Achievements from './components/achievements/Achievements';
+import Certificates from './components/certificates/Certifications';
 import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -40,6 +41,7 @@ function App() {
               <Skills />
               <Achievements />
               {/* <Testimonials /> */}
+              <Certificates />
               <Contact />
             </main>
             <Footer />

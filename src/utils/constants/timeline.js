@@ -9,11 +9,11 @@ export const TIMELINE_DATA = [
   //   icon: FaBriefcase,
   // },
   {
-    title: "Frontend Developer",
+    title: "Software Engineer",
     company: "Nixtour India Private Limited",
     date: "Oct 2025 - Present",
     description:
-      "Developed and maintained scalable web applications using React.js, TypeScript, Tailwind CSS, and JavaScript(ES6+), improving performance and maintainability.",
+      "Developed and maintained scalable web applications using React.js, TypeScript, Tailwind CSS, JavaScript(ES6+), Shadcn and Node.js, improving performance and maintainability.",
     icon: FaBriefcase,
   },
   {
